@@ -14,11 +14,12 @@ public class StepindevTask11Ru
 
     public static void main(String[] args) throws Exception
     {
-        var oStdIn = new BufferedReader(new InputStreamReader(System.in,"utf-8"));
-        var oStdOut = new PrintWriter(new OutputStreamWriter(System.out,"utf-8"),true);
+        var strCodeName = System.getProperty("file.encoding");
+        var oStdIn = new BufferedReader(new InputStreamReader(System.in, strCodeName));
+        var oStdOut = new PrintWriter(new OutputStreamWriter(System.out,strCodeName),true);
         oStdOut.println("Введите количество блоков");
         var n = Integer.parseInt(oStdIn.readLine());
-        oStdOut.println("Введите количество башен");
+        oStdOut.println("Введите количество блоков на башню");
         var k = Integer.parseInt(oStdIn.readLine());
         var t = n / k; // Максимальное количество башен
         var b = t * k; // Количесво блоков
