@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "StepindevTask11En",
+            "request": "launch",
+            "mainClass": "com.home.stepindev.task.en.StepindevTask11En",
+            "projectName": "stepindev-task-1-1-en"
+        },
+        {
+            "type": "java",
+            "name": "StepindevTask11Ru",
+            "request": "launch",
+            "mainClass": "com.home.stepindev.task11.ru.StepindevTask11Ru",
+            "projectName": "stepindev-task-1-1-ru"
+        }
+    ]
+}
