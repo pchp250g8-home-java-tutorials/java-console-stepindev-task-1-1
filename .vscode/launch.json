@@ -8,21 +8,24 @@
             "type": "java",
             "name": "Current File",
             "request": "launch",
-            "mainClass": "${file}"
+            "mainClass": "${file}",
+            "preLaunchTask": "Change Terminal Encoding"
         },
         {
             "type": "java",
             "name": "StepindevTask11En",
             "request": "launch",
             "mainClass": "com.home.stepindev.task.en.StepindevTask11En",
-            "projectName": "stepindev-task-1-1-en"
+            "projectName": "stepindev-task-1-1-en",
+            "preLaunchTask": "Change Terminal Encoding"
         },
         {
             "type": "java",
             "name": "StepindevTask11Ru",
             "request": "launch",
             "mainClass": "com.home.stepindev.task11.ru.StepindevTask11Ru",
-            "projectName": "stepindev-task-1-1-ru"
+            "projectName": "stepindev-task-1-1-ru",
+            "preLaunchTask": "Change Terminal Encoding"
         }
     ]
 }

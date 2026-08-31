@@ -4,6 +4,7 @@
 
 package com.home.stepindev.task11.ru;
 import java.io.*;
+import java.nio.charset.Charset;
 
 /**
  *
@@ -14,7 +15,7 @@ public class StepindevTask11Ru
 
     public static void main(String[] args) throws Exception
     {
-        var strCodeName = System.getProperty("file.encoding");
+        var strCodeName = Charset.defaultCharset().displayName();
         var oStdIn = new BufferedReader(new InputStreamReader(System.in, strCodeName));
         var oStdOut = new PrintWriter(new OutputStreamWriter(System.out,strCodeName),true);
         oStdOut.println("Введите количество блоков");
