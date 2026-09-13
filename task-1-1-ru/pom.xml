@@ -8,6 +8,6 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>25</maven.compiler.release>
-        <exec.mainClass>com.home.stepindev.task11.StepindevTask11Ru</exec.mainClass>
+        <exec.mainClass>com.home.stepindev.task11.ru.Program</exec.mainClass>
     </properties>
 </project>
