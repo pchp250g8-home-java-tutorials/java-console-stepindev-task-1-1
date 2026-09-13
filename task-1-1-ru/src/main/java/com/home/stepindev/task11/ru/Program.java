@@ -13,12 +13,15 @@ public class Program
 {
     public static void main(String[] args) throws Exception
     {
-        /*Ввод данных*/
+        /*Настройка ввоода данных для считывания строк*/
         var stdin = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Введите количество блоков");
-        var n = Integer.parseInt(stdin.readLine());
+        /*Ввод данных*/
+        /*Преобразование введённой строки в положительное число*/
+        var n = Integer.parseUnsignedInt(stdin.readLine());
         System.out.println("Введите количество блоков на башню");
-        var k = Integer.parseInt(stdin.readLine());
+        /*Преобразование введённой строки в положительное число*/
+        var k = Integer.parseUnsignedInt(stdin.readLine());
         var t = n / k; // Максимальное количество башен
         var b = t * k; // Количесво блоков
         /*Вывод информации на экран*/
