@@ -14,14 +14,14 @@
             "type": "java",
             "name": "StepindevTask11En",
             "request": "launch",
-            "mainClass": "com.home.stepindev.task.en.StepindevTask11En",
+            "mainClass": "com.home.stepindev.task11.en.Program",
             "projectName": "stepindev-task-1-1-en"
         },
         {
             "type": "java",
             "name": "StepindevTask11Ru",
             "request": "launch",
-            "mainClass": "com.home.stepindev.task11.ru.StepindevTask11Ru",
+            "mainClass": "com.home.stepindev.task11.ru.Program",
             "projectName": "stepindev-task-1-1-ru"
         }
     ]
